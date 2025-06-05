@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: -apple-system,  sans-serif;
+}
+:root{
+    --bg-color: #fff;
+    --snd--bg-color:#d5fdf9;
+    
+    --main-color:#007f73;
+
+}
+
+header{
+    background-color: #070c4d;
+     height: 6em;
+     display: flex;
+     justify-content: space-between;
+     align-items:center;
+    
+     
+}
+.logo{
+   
+    margin-top: 25px;
+    font-size: 200%;
+    color: #fff;
+    margin-left:50px ;
+}
+
+.navbar{
+    margin-left: 40em;
+    gap: 80px;
+    display: flex;
+    
+
+}
+
+.navbar a{
+    color: aliceblue;
+    width: 70px;;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    
+    
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: #070c4d;
+}
