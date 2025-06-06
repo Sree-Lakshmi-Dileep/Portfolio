@@ -12,7 +12,7 @@
     --bg-color: #fff;
     --snd--bg-color:#d5fdf9;
     
-    --main-color:#007f73;
+    --main-color:#041d9b;
 
 }
 
@@ -30,12 +30,12 @@ header{
     margin-top: 25px;
     font-size: 200%;
     color: #fff;
-    margin-left:50px ;
+    margin-left:40px ;
 }
 
 .navbar{
     margin-left: 40em;
-    gap: 80px;
+    gap: 70px;
     display: flex;
     
 
@@ -43,10 +43,10 @@ header{
 
 .navbar a{
     color: aliceblue;
-    width: 70px;;
+    width: 140px;;
     height: 30px;
     border-radius: 10px;
-    padding-left: 8px;
+    padding-left: 6px;
     padding-top: 5px;
     
     
@@ -55,4 +55,84 @@ header{
 .navbar a:hover{
     background-color: white;
     color: #070c4d;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    animation: floatImage 4s ease-in-out indefinite ;
+    transition: 0.4s ease;
+}
+
+.home-img img:hover{
+    box-shadow: 0  0  25px var(--main-color),
+                0 0  35px var(--main-color),
+                0 0  45px var(--main-color);
+}
+
+.home-content{
+    margin-left: 5rem;
+
+}
+
+.name{
+    color: #041d9b;
+}
+
+.home-content h3{
+    
+   font-size: 3.7rem;
+   font-weight: 700;
+}
+
+.home-content p{
+    font-size: 1.6rem;
+
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0-3s ease;
+}
+
+.social-media a:hover{
+    transform: scale(1.2) translate(-10px);
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+.btn{
+    display: inline-flex;
+    padding: 1rem 2.8rem;
+    background:var(--main-color) ;
+    border-radius:4rem ;
+    box-shadow: none;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+}
+.btn:hover{
+    box-shadow: 0 0 1.6rem var(--main-color);
+}
+.home{
+    padding-top: 60px;
+    padding-left: 20px;
 }
