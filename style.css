@@ -191,3 +191,80 @@ header{
     font-size: 1.6rem;
     margin: 2rem  0 3rem;
 }
+
+.projects{
+  
+     justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    
+   
+    height: 45em;
+}
+
+.head{
+    
+     font-size:4rem;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.project-content p{
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 2.2rem;
+font-family:Verdana, Geneva, Tahoma, sans-serif ; 
+margin-top: 30px;   
+
+}
+
+.p_img{
+    width: 300px;
+    height: 250px;
+}
+
+.project-list h2,h1{
+    text-align: center;
+}
+
+.project-list{
+    display: flex;
+    gap: 100px;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+
+.p_list
+{background: transparent;
+border: 0.2rem solid var(--main-color);
+height: 25em;
+border-radius: 10px;
+transition: 0.4s ease;
+    
+}.p_list:hover{
+     box-shadow: 0  0  25px var(--main-color),
+                0 0  35px var(--main-color),
+                0 0  45px var(--main-color);
+
+}
+
+.p_btn{
+   
+    padding: 1rem 1.8rem;
+    margin-left: 3.5rem;
+    
+    background:var(--main-color) ;
+    border-radius:3rem ;
+    box-shadow: none;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    
+}
+.p_btn:hover{
+    box-shadow: 0 0 1.6rem var(--main-color);
+}
+
