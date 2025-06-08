@@ -10,7 +10,7 @@
 }
 :root{
     --bg-color: #fff;
-    --snd--bg-color:#c9e5f6;
+    --snd--bg-color:#edf3f7;
     
     --main-color: #070c4d;
 
@@ -60,6 +60,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 .home-img img{
@@ -80,6 +82,7 @@ header{
 
 .home-content{
     margin-left: 5rem;
+    
 
 }
 
@@ -266,5 +269,64 @@ transition: 0.4s ease;
 }
 .p_btn:hover{
     box-shadow: 0 0 1.6rem var(--main-color);
+}
+
+
+
+.contact{
+    background: var(--snd--bg-color);
+    padding-bottom: 5px;
+}
+
+.contact h2{
+    margin-bottom: 3rem;
+    color: var(--main-color);
+}
+
+.contact form {
+    max-width: 80rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 0.25rem solid var(--main-color);
+    margin: 0.7rem 0;
+    resize: none;
+}
+
+.contact form .input-box input{
+    width: 49%;
+    margin: 0.7rem 0.3;
+}
+
+.contact form .btn{
+    margin-top: 2rem;
+}
+
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    
+    text-align: center;
 }
 
