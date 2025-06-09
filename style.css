@@ -7,6 +7,12 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: -apple-system,  sans-serif;
+   
+   
+}
+
+body{
+    overflow-x: hidden;
 }
 :root{
     --bg-color: #fff;
@@ -60,6 +66,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 240px;
     
     
 }
@@ -150,7 +157,7 @@ header{
     gap: 2rem;
     background: var(--snd--bg-color);
     margin-top: 129px;
-    height: 45em;
+    height: 47em;
 }
 
 .about-img img{
