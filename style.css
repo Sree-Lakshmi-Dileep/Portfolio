@@ -343,3 +343,59 @@ transition: 0.4s ease;
     text-align: center;
 }
 
+
+
+.todoContainer{
+    margin: 20px;
+    background-color: #eaeef0;
+    padding: 20px;
+}
+
+.todoContainer img{
+    width: 40vw;
+    height: 40vh;
+    
+    margin-left: 25vw;
+}
+
+.todoContainer h2,h5{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.todoContainer p{
+    line-height: 1.8rem;
+    padding-inline: 30px;
+    margin-top: 25px;
+
+
+}
+
+.gitTodo{
+    margin: 20px;
+}
+.gitTodo a{
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0-3s ease;
+    margin-left: 45vw;
+    
+}
+
+.gitTodo a:hover{
+    transform: scale(1.2) translate(-10px);
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+
