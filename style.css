@@ -96,11 +96,21 @@ header{
 .name{
     color: #070c4d;
 }
+@keyframes typing{
+    from {width: 0;}
+    to {width: 100%;}
+}
 
 .home-content h3{
     
    font-size: 3.7rem;
    font-weight: 700;
+   display: inline-block;
+   overflow: hidden;
+   white-space: nowrap;
+   width: 0;
+   max-width: 100%;
+   animation: typing 3s steps(19,end) forwards;
 }
 
 .home-content p{
@@ -349,6 +359,7 @@ transition: 0.4s ease;
     margin: 20px;
     background-color: #eaeef0;
     padding: 20px;
+    
 }
 
 .todoContainer img{
@@ -392,6 +403,61 @@ transition: 0.4s ease;
 }
 
 .gitTodo a:hover{
+    transform: scale(1.2) translate(-10px);
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+
+
+.tottocontainer{
+    margin: 15px;
+    background-color: #eaeef0;
+    padding: 15px;
+    position: fixed;
+}
+
+.tottocontainer img{
+    width: 35vw;
+    height: 35vh;
+    margin-left: 25vw;
+}
+
+.tottocontainer h2,h5{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.tottocontainer p{
+    line-height: 1.7rem;
+    padding-inline: 30px;
+    margin-top: 20px;
+
+
+}
+
+.gitTotto{
+    margin: 20px;
+}
+.gitTotto a{
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0-3s ease;
+    margin-left: 45vw;
+    
+}
+
+.gitTotto a:hover{
     transform: scale(1.2) translate(-10px);
     background-color: var(--main-color);
     color: var(--bg-color);
